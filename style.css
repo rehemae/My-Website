@@ -1,0 +1,71 @@
+body{
+   
+    background-image: url(/feedbackk.jpg);
+     background-repeat: no-repeat;
+     background-position: center;
+     font-family:'Times New Roman', Times, serif;
+     padding: 7px;
+     
+         
+}
+ 
+ #about{
+     font-family:'Times New Roman', Times, serif;
+     font-size: 100%;    
+ 
+ }
+ nav{
+  text-align: right;
+  font: size 30px;
+  
+}
+   
+ 
+ ul>li{
+   display:inline-block;
+   text-align: right;
+ }
+ a{
+   text-decoration: none;
+   padding:10px;
+   color:rgb(32, 31, 138);
+   text-align: right;
+ }
+ 
+ nav>ul>li>a:hover{
+   box-shadow:5 5 10px;
+   background-color:brown;
+ }
+ 
+ 
+ 
+ #Home, #About, #Feedback {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+ }
+ 
+ div>img {
+   padding: 5px;
+ }
+ 
+ #Home, #About, #Feedback{
+   position:fixed
+ }
+ 
+ #Feedback{
+   text-align:right;
+ 
+ }
+ h1{
+   color:rgb(59, 201, 194);
+ font-size:13em;
+ margin-top: 4px;
+ }
+   
+ 
+ 
+      
+        
+    
+    

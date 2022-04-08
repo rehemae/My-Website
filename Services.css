@@ -1,0 +1,85 @@
+.footer{
+    position:bottom;
+    width: 100%;
+    height: 60% ;
+    background-color:rgb(229, 238, 231);
+    color: rgb(233, 10, 21);
+    text-align: center;
+    letter-spacing: 1.5px;
+font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 4%;
+    margin-top: 100%;
+
+
+}
+body{
+    background-image: url(/yellow.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+    width: 100%;
+    overflow: auto;
+    margin: right;
+    
+        }
+          body{
+            
+            background-repeat:no-repeat;
+            background-size:fit;
+            font-size:20px;
+        
+        }
+        
+        #clothes{
+            display:flex;
+            flex-direction:row;
+            justify-content:space-around;
+            
+        }
+         
+         div>img{
+            padding:10px;
+            align-content: space-around;
+            float: right;
+        } 
+        
+        img{
+            height: 200px;
+            width: 300px;
+            align-content: space-around;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+        
+        }
+        .wear{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        
+        nav{
+            text-align:right;
+            
+        }
+        
+        a{
+            text-decoration:none;
+            padding:10px;
+            color:black;
+        }
+        
+        nav>ul>a:hover{
+            box-shadow:5 10 15px;
+            background-color:rgb(139, 105, 105);
+        }
+        
+        button{
+            background-color:rgb(124, 98, 98);
+            padding:10px;
+        } 
+        
+        p{
+            margin-left: 5px;
+        }
+    
